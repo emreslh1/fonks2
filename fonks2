@@ -1,0 +1,24 @@
+#include <stdio.h>
+void emre(int hata){
+    printf("hata kodu sayisi:%d",hata);
+}
+int main(){
+
+int sayi;
+  printf("bir sayi giriniz=");
+  scanf("%d",&sayi);
+  if(sayi<100)
+  {
+    emre(10);
+  }
+else 
+{
+    emre(20);
+}
+
+
+
+
+
+    return 0;
+}
